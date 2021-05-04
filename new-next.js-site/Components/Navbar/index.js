@@ -9,11 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const NavBar = () => (
     <>
   <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="#home" id={styles.nav}>Nick Adams</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home" id={styles.nav}>Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#home" >Home</Nav.Link>
+      <Nav.Link href="#features">Portfolio</Nav.Link>
+      <Nav.Link href="#pricing">Music</Nav.Link>
+      <Nav.Link href="#pricing">Contact Nick</Nav.Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
